@@ -1,0 +1,42 @@
+
+.text {
+  color: #777;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.wrap{
+  display: flex;
+}
+.tl{
+ width: 60%;
+ border:1px solid red;
+ margin:10px;
+ padding:5px;
+}
+.tr{
+ width: 40%;
+ border:1px solid red;
+ margin:10px;
+ padding:5px;
+}
+.bl{
+ width: 40%;
+ border:1px solid red;
+ margin:10px;
+ padding:5px;
+}
+.br{
+  width: 60%;
+  border:1px solid red;
+  margin:10px;
+ padding:5px;
+}

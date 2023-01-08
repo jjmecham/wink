@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Roboto:wght@300&display=swap');
+/* colors:  #3f8671 (green), black and #36454F charcoal and white*/
+body {
+  color: #333;
+  font-family: 'Reenie Beanie', cursive;
+  font-weight:600;
+  height:100vh;
+  background-image: url("../public/background.jpg");
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.content {
+  max-width: 1020px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .8);
+  /* background: #FFF; */
+  background-image: url("../public/paper.jpg");
+  padding: 30px;
+  min-height: 100vh;
+  /* box-shadow: 0px 5px 10px 5px black; */
+  box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.8);
+  border-right:3px solid #3f8671;
+  border-left:5px solid #fff;
+  font-size: 32px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color:#3f8671
+}
+.logo p{
+  text-align: left;
+}
+
+nav {
+  margin: 0px auto 80px;
+  padding: 10px 0;
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; */
+  border-bottom: 1px solid #3f8671;
+  text-align: center;
+}
+nav a {
+  margin-left: 12px;
+  font-size:2rem;
+}
+nav a:hover{
+  color: #3f8671;
+}
+nav .logo {
+  margin-right: auto;
+}
+.links{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  border-top:1px solid #3f8671;
+  margin-top:auto;
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  color: #777;
+  position:relative;
+  bottom: 0;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color:#4979ff;
+  text-decoration: underline;
+}
+
+.main{
+  background-color: #fff;
+  padding: 20px 20px 0px 20px;
+  height: 70vh;
+  box-shadow: 0px 3px 10px 1px #808080;
+  border-radius: 20px 0px;
+  border: 1px solid #1e1e1e;
+}
+
+.social a{
+  margin:20px;
+}
+
