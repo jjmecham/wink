@@ -8,7 +8,7 @@
 }
 .btn {
   display: block;
-  width: 150px;
+  width: 50%;
   padding: 8px 0;
   margin: 20px auto;
   background: #3f8671;
@@ -35,6 +35,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 80%;
+  margin:10px auto;
 }
 
 .main a{

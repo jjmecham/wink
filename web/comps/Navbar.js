@@ -1,18 +1,20 @@
 import Link from 'next/link'
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
+
     return ( 
         <nav className="navbar">
-            <div className="logo">
-                <Image src="/wink-logo.png" alt="Wink logo" width={400} height={188} /><div style={{fontSize: "5rem", color: '#36454F'}}>Tattoos</div>
-            </div>
             <div className="links">
-            <Link href='/'>Home</Link>
-            <Link href='/about'>About</Link>
-            <Link href='/gallery'>Work</Link>
-            <Link href='/news'>News</Link>
-            <Link href='/contact'>Contact</Link>
+            <Link className={currentRoute === '/' ? "active": ''} href='/'>Home</Link>
+            <Link className={currentRoute === '/about' ? "active": ''} href='/about'>About</Link>
+            <Link className={currentRoute === '/gallery' ? "active": ''} href='/gallery'>Work</Link>
+            <Link className={currentRoute === '/news' ? "active": ''} href='/news'>News</Link>
+            <Link className={currentRoute === '/contact' ? "active": ''} href='/contact'>Contact</Link>
             </div>
         </nav>
      );

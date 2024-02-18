@@ -19,7 +19,7 @@ export default function News({posts}) {
         <title>News</title>
         <meta name="keywords" content="ninjas" />
       </Head>
-        <div>
+        <div className={"main"}>
             <h3 className={styles.title}>News</h3>
         </div>
       {posts.length > 0 && posts.map(
